@@ -188,7 +188,13 @@ const App = () => {
       </SectionMin2>
 
       <div>
-        <WhatsButton>EU QUERO FAZER A MATRICULA</WhatsButton>
+        <WhatsButton
+          onClick={() =>
+            (window.location.href = "https://bit.ly/curso-de-teologia-itr")
+          }
+        >
+          EU QUERO FAZER A MATRICULA
+        </WhatsButton>
       </div>
     </main>
   );

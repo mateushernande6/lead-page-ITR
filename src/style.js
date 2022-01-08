@@ -237,6 +237,7 @@ export const WhatsButton = styled.button`
   border-radius: 10px;
   font-family: "righteous";
   margin-bottom: 25px;
+  cursor: pointer;
 
   @media (max-width: 775px) {
     width: 90%;
