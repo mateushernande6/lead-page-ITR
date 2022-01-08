@@ -37,6 +37,10 @@ import Alex from "../src/assets/alex_martins_image.png";
 import CantorPauloNeto from "../src/assets/paulo_neto_image.png";
 
 const App = () => {
+  const handleClick = () => {
+    window.location.href = "https://bit.ly/curso-de-teologia-itr";
+  };
+
   return (
     <main className="App">
       <ImageBack src={NapoleaoImg} alt="Curso Teologico" />
@@ -53,20 +57,14 @@ const App = () => {
       <ContainerBar2>
         <h2>Quero me tornar aluno agora</h2>
         <>
-          <ButtonWhats
-            onClick={() =>
-              (window.location.href = "https://bit.ly/curso-de-teologia-itr")
-            }
-          >
+          <ButtonWhats onClick={handleClick}>
             <img src={ButtonWpp} alt="Botão para whatsapp" />
           </ButtonWhats>
         </>
       </ContainerBar2>
 
       <ImageBack
-        onClick={() =>
-          (window.location.href = "https://bit.ly/curso-de-teologia-itr")
-        }
+        onClick={handleClick}
         src={PauloNeto}
         alt="Curso de teologia"
       />
@@ -188,11 +186,7 @@ const App = () => {
       </SectionMin2>
 
       <div>
-        <WhatsButton
-          onClick={() =>
-            (window.location.href = "https://bit.ly/curso-de-teologia-itr")
-          }
-        >
+        <WhatsButton onClick={handleClick}>
           EU QUERO FAZER A MATRICULA
         </WhatsButton>
       </div>
