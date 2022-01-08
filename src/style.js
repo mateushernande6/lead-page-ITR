@@ -38,7 +38,6 @@ export const ContainerBar2 = styled.div`
 
   @media (max-width: 620px) {
     flex-direction: column;
-    background-color: red;
   }
 `;
 
@@ -238,4 +237,8 @@ export const WhatsButton = styled.button`
   border-radius: 10px;
   font-family: "righteous";
   margin-bottom: 25px;
+
+  @media (max-width: 775px) {
+    width: 90%;
+  }
 `;
