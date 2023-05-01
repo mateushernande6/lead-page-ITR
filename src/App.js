@@ -38,7 +38,7 @@ import CantorPauloNeto from "../src/assets/paulo_neto_image.png";
 
 const App = () => {
   const handleClick = () => {
-    window.location.href = "https://bit.ly/curso-de-teologia-itr";
+    window.location.href = "https://wa.me/5518997470844?text=Ol%C3%A1+gostaria+de+saber+mais+sobre+o+curso%21";
   };
 
   return (
