@@ -103,14 +103,7 @@ const App = () => {
           </div>
         </PastorImageContainer>
 
-        <PastorImageContainer>
-          <img src={MarcosFeliciano} alt="Pastor Marcos Feliciano" />
-          <div>
-            <p>
-              Pastor <br /> Marcos <br /> Feliciano
-            </p>
-          </div>
-        </PastorImageContainer>
+    
 
         <PastorImageContainer>
           <img src={AcacioJr} alt="Pastor Acácio Junior" />
