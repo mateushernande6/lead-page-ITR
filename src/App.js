@@ -35,6 +35,7 @@ import Eduardo from "../src/assets/eduardo_souza_image.png";
 import Paulo from "../src/assets/paulo_robson_image.png";
 import Alex from "../src/assets/alex_martins_image.png";
 import CantorPauloNeto from "../src/assets/paulo_neto_image.png";
+import Pixel from '../components/pixel'
 
 const App = () => {
   const handleClick = () => {
@@ -43,6 +44,7 @@ const App = () => {
 
   return (
     <main className="App">
+<Pixel name='FACEBOOK_PIXEL_1' />
       <ImageBack src={NapoleaoImg} alt="Curso Teologico" />
 
       <ContainerBar>
